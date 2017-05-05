@@ -1,0 +1,8 @@
+
+<h1> Let's pick a number between 1 and 100, if you guess right, you win!"</h1>
+
+<%= form_tag "/form_result", method: :post do %>
+<div>Enter number: <input type="text" name="form_guess">
+</div>
+<input type="submit">
+<% end %>
